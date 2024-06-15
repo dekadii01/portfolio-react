@@ -7,8 +7,8 @@ import Navbar from "../components/Navbar";
 
 const Layouts = (props) => {
   return (
-    <div className="w-full min-h-[100dvh] dark:bg-slate-800 bg-blue-50 relative py-14">
-      <img src={Ellipse} alt="" className="absolute top-0" />
+    <div className="w-full min-h-[100dvh] dark:bg-zinc-950 bg-blue-50 relative py-14">
+      <img src={Ellipse} alt="" className="absolute top-0 inline-block dark:hidden " />
       {/* <img src={BgEllipse} alt="" className="absolute bottom-20 left-1/2 transform -translate-x-1/2" /> */}
       <Navbar />
 

@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 const Navbar = () => {
   return (
     <nav className="container mx-auto relative z-50">
-      <div className="container flex flex-wrap items-center justify-between mx-auto py-4 rounded-full">
+      <div className=" flex flex-wrap items-center justify-between mx-auto py-4 rounded-full">
         <a href="#" className="">
           <span className="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">Adi Pramana.</span>
         </a>
@@ -12,6 +12,7 @@ const Navbar = () => {
           <Flowbite>
             <DarkThemeToggle />
           </Flowbite>
+
           <button
             data-collapse-toggle="navbar-hamburger"
             type="button"
@@ -26,7 +27,7 @@ const Navbar = () => {
           </button>
         </div>
 
-        <div className="hidden w-5/6 sm:w-11/12 absolute top-[50px]" id="navbar-hamburger">
+        <div className="hidden w-11/12 sm:w-[96%] absolute top-[50px]" id="navbar-hamburger">
           <ul className="flex flex-col font-medium mt-4 rounded-lg bg-gray-50 dark:bg-gray-800 dark:border-gray-700 ">
             <li>
               <Link to="/" className={`${location.pathname === "/" ? "nav-active" : "nav-not-active"}`} aria-current="page">
