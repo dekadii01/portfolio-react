@@ -14,7 +14,7 @@ const Layouts = (props) => {
 
       <div className="container grid grid-cols-9 md:px-10 lg:px-0 lg:space-x-5 lg:mt-36 gap-y-5 lg:gap-0">
         <CardLeft />
-        <div className="col-span-9 lg:col-span-6 bg-white dark:bg-black rounded-xl p-5 md:p-12">{props.children}</div>
+        <div className="col-span-9 lg:col-span-6 bg-white dark:bg-black rounded-xl ">{props.children}</div>
         <CardRight />
       </div>
     </div>

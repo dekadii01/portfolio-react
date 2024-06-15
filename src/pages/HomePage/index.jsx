@@ -8,7 +8,7 @@ import Footer from "../../components/Footer";
 const HomePage = () => {
   return (
     <Layouts>
-      <section id="about">
+      <section id="about" className="p-5 md:p-12">
         <div className="flex items-center gap-x-6 mb-3">
           <h1 className="font-bold text-[40px] text-black dark:text-white">About</h1>
           <div className="h-[3px] w-44 rounded-lg bg-primary"></div>
@@ -58,7 +58,7 @@ const HomePage = () => {
           <img src={LogoIgnos} alt="" width={110} />
         </div>
       </section>
-      <Footer/>
+      <Footer />
     </Layouts>
   );
 };
