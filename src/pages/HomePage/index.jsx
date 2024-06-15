@@ -3,6 +3,7 @@ import Layouts from "../../layouts";
 import { MdOutlineDesignServices } from "react-icons/md";
 import LogoIgnos from "/img/clients/ignos.png";
 import { TiCameraOutline } from "react-icons/ti";
+import Footer from "../../components/Footer";
 
 const HomePage = () => {
   return (
@@ -51,12 +52,13 @@ const HomePage = () => {
           </div>
         </div>
       </section>
-      <section id="client" className="mt-14">
-        <h1 className="text-3xl font-medium text-black dark:text-white text-center ">Client</h1>
-        <div className="flex justify-center">
-          <img src={LogoIgnos} alt="" width={150} className="drop-shadow-lg"/>
+      <section id="client" className="mt-14 bg-[#f8fbfb] dark:bg-[#0d0d0d] p-5 rounded-lg">
+        <h1 className="text-3xl font-medium text-black dark:text-white text-center mb-3">Client</h1>
+        <div className="flex justify-center mb-2">
+          <img src={LogoIgnos} alt="" width={110} />
         </div>
       </section>
+      <Footer/>
     </Layouts>
   );
 };
