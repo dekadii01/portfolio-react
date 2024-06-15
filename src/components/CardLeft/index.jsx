@@ -7,7 +7,7 @@ import { IoMdDownload } from "react-icons/io";
 
 const CardLeft = () => {
   return (
-    <div className="col-span-9 lg:col-span-2 bg-white rounded-xl dark:bg-black">
+    <div className="col-span-9 lg:col-span-2 bg-white rounded-xl dark:bg-black h-fit">
       <img src={ImgLaba} alt="" className="rounded-xl w-9/12 mx-auto mt-10 lg:-mt-24" loading="lazy" />
       <h1 className="font-bold text-2xl text-center mt-5  dark:text-white">Laba Adi Pramana</h1>
       <div className="flex justify-center">
