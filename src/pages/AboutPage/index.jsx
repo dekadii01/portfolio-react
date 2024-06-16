@@ -10,7 +10,7 @@ import LaravelLogo from "/img/skills/laravel.svg";
 import PhpLogo from "/img/skills/php.svg";
 import BootstrapLogo from "/img/skills/bootstrap.svg";
 import PostmanLogo from "/img/skills/postman.svg";
-import MysqliLogo from "/img/skills/mysqli.png";
+import MysqliLogo from "/img/skills/mysql.svg";
 import CssLogo from "/img/skills/css.svg";
 import HtmlLogo from "/img/skills/html.svg";
 import CanvaLogo from "/img/skills/canva.svg";
@@ -116,6 +116,11 @@ const AboutPage = () => {
               </div>
             </div>
             <div className="flex justify-center">
+              <div className="shadow-lg cursor-pointer flex justify-center z-30 md:w-[144px] w-[70px] border dark:border-none hover:border-none md:h-[140px] h-[71px] rounded-md dark:bg-[#0d0d0d] md:p-5 p-3 dark:shadow-[0px_1px_5px_0px_#000] hover:-translate-y-2 transition-all duration-100 ease-in hover:shadow-[#00758F] hover:shadow-lg dark:hover:shadow-[#00758F] dark:hover:shadow-lg">
+                <img src={MysqliLogo} alt="logo skills adipramana" className="md:w-16 w-8" loading="lazy" />
+              </div>
+            </div>
+            <div className="flex justify-center">
               <div className="shadow-lg cursor-pointer flex justify-center z-30 md:w-[144px] w-[70px] border dark:border-none hover:border-none md:h-[140px] h-[71px] rounded-md dark:bg-[#0d0d0d] md:p-5 p-3 dark:shadow-[0px_1px_5px_0px_#000] hover:-translate-y-2 transition-all duration-100 ease-in hover:shadow-[#1572B6] hover:shadow-lg dark:hover:shadow-[#1572B6] dark:hover:shadow-lg">
                 <img src={CssLogo} alt="logo skills adipramana" className="md:w-16 w-8" loading="lazy" />
               </div>
@@ -148,6 +153,11 @@ const AboutPage = () => {
             <div className="flex justify-center">
               <div className="cursor-pointer flex justify-center z-30 md:w-[144px] w-[70px] border dark:border-none hover:border-none md:h-[140px] h-[71px] rounded-md dark:bg-[#0d0d0d] md:p-5 p-3 shadow-lg dark:shadow-[0px_1px_5px_0px_#000] hover:-translate-y-2 transition-all duration-100 ease-in hover:shadow-[#DC143C] hover:shadow-lg dark:hover:shadow-[#DC143C] dark:hover:shadow-lg">
                 <img src={GitLogo} alt="logo skills adipramana" className="md:w-16 w-8" loading="lazy" />
+              </div>
+            </div>
+            <div className="flex justify-center">
+              <div className="cursor-pointer flex justify-center z-30 md:w-[144px] w-[70px] border dark:border-none hover:border-none md:h-[140px] h-[71px] rounded-md dark:bg-[#0d0d0d] md:p-5 p-3 shadow-lg dark:shadow-[0px_1px_5px_0px_#000] hover:-translate-y-2 transition-all duration-100 ease-in hover:shadow-sky-800 hover:shadow-lg dark:hover:shadow-sky-800 dark:hover:shadow-lg">
+                <img src={CanvaLogo} alt="logo skills adipramana" className="md:w-16 w-8" loading="lazy" />
               </div>
             </div>
           </div>
