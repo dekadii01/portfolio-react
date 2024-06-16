@@ -2,7 +2,7 @@ const Footer = () => {
   const currentYear = new Date().getFullYear();
   return (
     <footer className="mt-8 mb-5">
-      <p className="text-base text-bodytext dark:text-abuDark text-center">© {currentYear} All Rights Reserved by Adi Pramana</p>
+      <p className="text-base text-bodytext dark:text-abuDark text-center">© {currentYear}, by Laba Adi Pramana</p>
     </footer>
   );
 };

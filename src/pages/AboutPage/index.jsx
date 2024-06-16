@@ -147,7 +147,7 @@ const AboutPage = () => {
             </div>
             <div className="flex justify-center">
               <div className="cursor-pointer flex justify-center z-30 md:w-[144px] w-[70px] border dark:border-none hover:border-none md:h-[140px] h-[71px] rounded-md dark:bg-[#0d0d0d] md:p-5 p-3 shadow-lg dark:shadow-[0px_1px_5px_0px_#000] hover:-translate-y-2 transition-all duration-100 ease-in hover:shadow-[#000] hover:shadow-lg dark:hover:shadow-[#000] dark:hover:shadow-lg">
-                <img src={GithubLogo} alt="logo skills adipramana" className="md:w-16 w-8" loading="lazy" />
+                <img src={GithubLogo} alt="logo skills adipramana" className="md:w-16 w-8 " loading="lazy" />
               </div>
             </div>
             <div className="flex justify-center">
