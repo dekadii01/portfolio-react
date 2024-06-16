@@ -1,6 +1,24 @@
 import { IoSchoolOutline } from "react-icons/io5";
 import { BsSuitcaseLg } from "react-icons/bs";
 import Layouts from "../../layouts";
+import ReactLogo from "/img/skills/react.svg";
+import TailwindLogo from "/img/skills/tailwind.svg";
+import JsLogo from "/img/skills/javascript.svg";
+import New from "/img/skills/new.svg";
+import NewDark from "/img/skills/new-dark.svg";
+import LaravelLogo from "/img/skills/laravel.svg";
+import PhpLogo from "/img/skills/php.svg";
+import BootstrapLogo from "/img/skills/bootstrap.svg";
+import PostmanLogo from "/img/skills/postman.svg";
+import MysqliLogo from "/img/skills/mysqli.png";
+import CssLogo from "/img/skills/css.svg";
+import HtmlLogo from "/img/skills/html.svg";
+import CanvaLogo from "/img/skills/canva.svg";
+import FigmaLogo from "/img/skills/figma.svg";
+import GitLogo from "/img/skills/git.svg";
+import GithubLogo from "/img/skills/github.svg";
+import WordpressLogo from "/img/skills/wordpress.svg";
+import Footer from "../../components/Footer";
 
 const AboutPage = () => {
   return (
@@ -56,6 +74,85 @@ const AboutPage = () => {
             </div>
           </div>
         </section>
+        <section id="skills" className="bg-[#f8fbfb] dark:bg-[#0d0d0d] p-5 md:p-12">
+          <div className="relative w-fit">
+            <h1 className="text-[28px] font-bold text-black dark:text-white">🎯 Specialized Skills</h1>
+            <div className="absolute -right-20 -top-10 flex items-center">
+              <img src={New} alt="new" loading="lazy" className="hidden dark:block" />
+              <img src={NewDark} alt="new" loading="lazy" className="block dark:hidden" />
+              <span>😎</span>
+            </div>
+          </div>
+          <p className="text-base text-abuDark mb-5">Here are a few skills that I have developed and honed.</p>
+          <div className="grid grid-cols-4 lg:grid-cols-5 gap-5">
+            <div className="flex justify-center">
+              <div className="shadow-lg cursor-pointer flex justify-center z-30 md:w-[144px] w-[70px] border dark:border-none hover:border-none md:h-[140px] h-[71px] rounded-md dark:bg-[#0d0d0d] md:p-5 p-3 dark:shadow-[0px_1px_5px_0px_#000] hover:-translate-y-2 transition-all duration-100 ease-in hover:shadow-sky-300 hover:shadow-lg dark:hover:shadow-sky-300 dark:hover:shadow-lg">
+                <img src={ReactLogo} alt="logo skills adipramana" className="md:w-16 w-8" loading="lazy" />
+              </div>
+            </div>
+            <div className="flex justify-center">
+              <div className="shadow-lg cursor-pointer flex justify-center z-30 md:w-[144px] w-[70px] border dark:border-none hover:border-none md:h-[140px] h-[71px] rounded-md dark:bg-[#0d0d0d] md:p-5 p-3 dark:shadow-[0px_1px_5px_0px_#000] hover:-translate-y-2 transition-all duration-100 ease-in hover:shadow-[#FF2D20] hover:shadow-lg dark:hover:shadow-[#FF2D20] dark:hover:shadow-lg">
+                <img src={LaravelLogo} alt="logo skills adipramana" className="md:w-16 w-8" loading="lazy" />
+              </div>
+            </div>
+            <div className="flex justify-center">
+              <div className="shadow-lg cursor-pointer flex justify-center z-30 md:w-[144px] w-[70px] border dark:border-none hover:border-none md:h-[140px] h-[71px] rounded-md dark:bg-[#0d0d0d] md:p-5 p-3 dark:shadow-[0px_1px_5px_0px_#000] hover:-translate-y-2 transition-all duration-100 ease-in hover:shadow-sky-500 hover:shadow-lg dark:hover:shadow-sky-500 dark:hover:shadow-lg">
+                <img src={TailwindLogo} alt="logo skills adipramana" className="md:w-14 w-6" loading="lazy" />
+              </div>
+            </div>
+            <div className="flex justify-center">
+              <div className="shadow-lg cursor-pointer flex justify-center z-30 md:w-[144px] w-[70px] border dark:border-none hover:border-none md:h-[140px] h-[71px] rounded-md dark:bg-[#0d0d0d] md:p-5 p-3 dark:shadow-[0px_1px_5px_0px_#000] hover:-translate-y-2 transition-all duration-100 ease-in hover:shadow-[#7952B3] hover:shadow-lg dark:hover:shadow-[#7952B3] dark:hover:shadow-lg">
+                <img src={BootstrapLogo} alt="logo skills adipramana" className="md:w-16 w-8" loading="lazy" />
+              </div>
+            </div>
+            <div className="flex justify-center">
+              <div className="shadow-lg cursor-pointer flex justify-center z-30 md:w-[144px] w-[70px] border dark:border-none hover:border-none md:h-[140px] h-[71px] rounded-md dark:bg-[#0d0d0d] md:p-5 p-3 dark:shadow-[0px_1px_5px_0px_#000] hover:-translate-y-2 transition-all duration-100 ease-in hover:shadow-primary hover:shadow-lg dark:hover:shadow-primary dark:hover:shadow-lg">
+                <img src={JsLogo} alt="logo skills adipramana" className="md:w-16 w-8" loading="lazy" />
+              </div>
+            </div>
+            <div className="flex justify-center">
+              <div className="shadow-lg cursor-pointer flex justify-center z-30 md:w-[144px] w-[70px] border dark:border-none hover:border-none md:h-[140px] h-[71px] rounded-md dark:bg-[#0d0d0d] md:p-5 p-3 dark:shadow-[0px_1px_5px_0px_#000] hover:-translate-y-2 transition-all duration-100 ease-in hover:shadow-[#777BB3] hover:shadow-lg dark:hover:shadow-[#777BB3] dark:hover:shadow-lg">
+                <img src={PhpLogo} alt="logo skills adipramana" className="md:w-16 w-8" loading="lazy" />
+              </div>
+            </div>
+            <div className="flex justify-center">
+              <div className="shadow-lg cursor-pointer flex justify-center z-30 md:w-[144px] w-[70px] border dark:border-none hover:border-none md:h-[140px] h-[71px] rounded-md dark:bg-[#0d0d0d] md:p-5 p-3 dark:shadow-[0px_1px_5px_0px_#000] hover:-translate-y-2 transition-all duration-100 ease-in hover:shadow-[#1572B6] hover:shadow-lg dark:hover:shadow-[#1572B6] dark:hover:shadow-lg">
+                <img src={CssLogo} alt="logo skills adipramana" className="md:w-16 w-8" loading="lazy" />
+              </div>
+            </div>
+            <div className="flex justify-center">
+              <div className="cursor-pointer flex justify-center z-30 md:w-[144px] w-[70px] border dark:border-none hover:border-none md:h-[140px] h-[71px] rounded-md dark:bg-[#0d0d0d] md:p-5 p-3 shadow-lg dark:shadow-[0px_1px_5px_0px_#000] hover:-translate-y-2 transition-all duration-100 ease-in hover:shadow-[#E34F26] hover:shadow-lg dark:hover:shadow-[#E34F26] dark:hover:shadow-lg">
+                <img src={HtmlLogo} alt="logo skills adipramana" className="md:w-16 w-8" loading="lazy" />
+              </div>
+            </div>
+            <div className="flex justify-center">
+              <div className="cursor-pointer flex justify-center z-30 md:w-[144px] w-[70px] border dark:border-none hover:border-none md:h-[140px] h-[71px] rounded-md dark:bg-[#0d0d0d] md:p-5 p-3 shadow-lg dark:shadow-[0px_1px_5px_0px_#000] hover:-translate-y-2 transition-all duration-100 ease-in hover:shadow-[#21759B] hover:shadow-lg dark:hover:shadow-[#21759B] dark:hover:shadow-lg">
+                <img src={WordpressLogo} alt="logo skills adipramana" className="md:w-16 w-8" loading="lazy" />
+              </div>
+            </div>
+            <div className="flex justify-center">
+              <div className="cursor-pointer flex justify-center z-30 md:w-[144px] w-[70px] border dark:border-none hover:border-none md:h-[140px] h-[71px] rounded-md dark:bg-[#0d0d0d] md:p-5 p-3 shadow-lg dark:shadow-[0px_1px_5px_0px_#000] hover:-translate-y-2 transition-all duration-100 ease-in hover:shadow-[#A259FF] hover:shadow-lg dark:hover:shadow-[#A259FF] dark:hover:shadow-lg">
+                <img src={FigmaLogo} alt="logo skills adipramana" className="md:w-16 w-8" loading="lazy" />
+              </div>
+            </div>
+            <div className="flex justify-center">
+              <div className="cursor-pointer flex justify-center z-30 md:w-[144px] w-[70px] border dark:border-none hover:border-none md:h-[140px] h-[71px] rounded-md dark:bg-[#0d0d0d] md:p-5 p-3 shadow-lg dark:shadow-[0px_1px_5px_0px_#000] hover:-translate-y-2 transition-all duration-100 ease-in hover:shadow-[#FF6C37] hover:shadow-lg dark:hover:shadow-[#FF6C37] dark:hover:shadow-lg">
+                <img src={PostmanLogo} alt="logo skills adipramana" className="md:w-16 w-8" loading="lazy" />
+              </div>
+            </div>
+            <div className="flex justify-center">
+              <div className="cursor-pointer flex justify-center z-30 md:w-[144px] w-[70px] border dark:border-none hover:border-none md:h-[140px] h-[71px] rounded-md dark:bg-[#0d0d0d] md:p-5 p-3 shadow-lg dark:shadow-[0px_1px_5px_0px_#000] hover:-translate-y-2 transition-all duration-100 ease-in hover:shadow-[#000] hover:shadow-lg dark:hover:shadow-[#000] dark:hover:shadow-lg">
+                <img src={GithubLogo} alt="logo skills adipramana" className="md:w-16 w-8" loading="lazy" />
+              </div>
+            </div>
+            <div className="flex justify-center">
+              <div className="cursor-pointer flex justify-center z-30 md:w-[144px] w-[70px] border dark:border-none hover:border-none md:h-[140px] h-[71px] rounded-md dark:bg-[#0d0d0d] md:p-5 p-3 shadow-lg dark:shadow-[0px_1px_5px_0px_#000] hover:-translate-y-2 transition-all duration-100 ease-in hover:shadow-[#DC143C] hover:shadow-lg dark:hover:shadow-[#DC143C] dark:hover:shadow-lg">
+                <img src={GitLogo} alt="logo skills adipramana" className="md:w-16 w-8" loading="lazy" />
+              </div>
+            </div>
+          </div>
+        </section>
+        <Footer />
       </Layouts>
     </div>
   );
