@@ -1,6 +1,6 @@
 import ImgLaba from "/img/adi-pramana.jpg";
 import { CiMobile1 } from "react-icons/ci";
-import { FaSchool } from "react-icons/fa";
+import { FaEnvelopeOpenText, FaSchool } from "react-icons/fa";
 import { MdLocationOn } from "react-icons/md";
 import { FaCalendarDays } from "react-icons/fa6";
 import { IoMdDownload } from "react-icons/io";
@@ -25,8 +25,8 @@ const CardLeft = () => {
         <a href="https://www.linkedin.com/in/dekadii/" target="_blank" className="bg-abu dark:bg-dark px-3 py-2 rounded-lg hover:bg-primary dark:hover:bg-primary hover:text-white text-[#144679] transition-all ease-in duration-100 block">
           <i className="fa-brands fa-linkedin-in  text-[20px]"></i>
         </a>
-        <a href="mailto:kadekadi368@gmail.com" className="bg-abu dark:bg-dark px-3 py-2 rounded-lg hover:bg-primary dark:hover:bg-primary hover:text-white text-[#DB4437] block">
-          <i className="fa-regular fa-envelope text-[20px]"></i>
+        <a href="https://www.tiktok.com/@abcdemdjjdksnsks" target="_blank" className="bg-abu dark:bg-dark px-3 py-2 rounded-lg hover:bg-primary dark:hover:bg-primary hover:text-white text-[#fff] block">
+          <i className="fa-brands fa-tiktok text-[20px]"></i>
         </a>
       </div>
       <div className="bg-abu dark:bg-dark mx-5 my-7 px-6 py-5 rounded-lg">
@@ -42,11 +42,11 @@ const CardLeft = () => {
         <hr className="h-px my-3 bg-[#e3e3e3] border-0 dark:bg-[#333]" />
         <div className="flex items-center gap-x-2">
           <div className="bg-white dark:bg-black p-2 rounded-lg shadow-lg">
-            <FaSchool className="text-2xl font-bold text-[#6AB5B9]" />
+            <FaEnvelopeOpenText className="text-2xl font-bold text-[#6AB5B9]" />
           </div>
           <div>
-            <p className="text-abuDark text-sm">Education</p>
-            <h1 className="text-base text-black dark:text-white">SMKN 1 Denpasar</h1>
+            <p className="text-abuDark text-sm">Email</p>
+            <h1 className="text-base text-black dark:text-white">adipram@gmail.com</h1>
           </div>
         </div>
         <hr className="h-px my-3 bg-[#e3e3e3] border-0 dark:bg-[#333]" />

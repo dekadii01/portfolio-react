@@ -77,7 +77,7 @@ const AboutPage = () => {
         <section id="skills" className="bg-[#f8fbfb] dark:bg-[#0d0d0d] p-5 md:p-12">
           <div className="relative w-fit">
             <h1 className="text-[28px] font-bold text-black dark:text-white">🎯 Specialized Skills</h1>
-            <div className="absolute -right-20 -top-10 flex items-center">
+            <div className="absolute -right-16 md:-right-20 -top-12 md:-top-10 flex items-center">
               <img src={New} alt="new" loading="lazy" className="hidden dark:block" />
               <img src={NewDark} alt="new" loading="lazy" className="block dark:hidden" />
               <span>😎</span>

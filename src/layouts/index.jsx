@@ -1,11 +1,14 @@
-import React from "react";
+import React, { useEffect } from "react";
 import CardLeft from "../components/CardLeft";
 import CardRight from "../components/CardRight";
 import Ellipse from "/img/ellipse.svg";
-import BgEllipse from "/img/bg-ellipse.svg";
 import Navbar from "../components/Navbar";
+import { initFlowbite } from "flowbite";
 
 const Layouts = (props) => {
+  useEffect(() => {
+    initFlowbite();
+  }, []);
   return (
     <div className="w-full min-h-[100dvh] dark:bg-zinc-950 bg-blue-50 relative py-14">
       <img src={Ellipse} alt="" className="absolute top-0 inline-block dark:hidden " />
