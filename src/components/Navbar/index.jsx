@@ -36,7 +36,7 @@ const Navbar = () => {
             </li>
             <li>
               <Link to="/about" className={`${location.pathname === "/about" ? "nav-active" : "nav-not-active"}`}>
-                About
+                Resume
               </Link>
             </li>
             <li>
