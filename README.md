@@ -1,6 +1,6 @@
 # Welcome to My Personal Website
 
-Welcome to the latest version of my personal website. In this update, I have switched to using React.js because I've recently developed an interest in React JS. I designed this website with a more dynamic and responsive interface. Additionally, I have implemented the concept of components and props, which makes the development and maintenance of the site more efficient.
+Welcome to the updated version of my personal website. In this update, I have switched to using React.js because I've recently developed an interest in React JS. I designed this website with a more dynamic and responsive interface. Additionally, I have implemented the concept of components and props, which makes the development and maintenance of the site more efficient.
 
 ## Key Features
 
