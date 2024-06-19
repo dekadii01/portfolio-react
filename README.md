@@ -14,11 +14,11 @@ Welcome to the updated version of my personal website. In this update, I have sw
 2. **Tailwind CSS**: For flexible and easily customizable design and styling.
 3. **Flowbite (components)**: For ready-to-use interface components that are easy to integrate.
 4. **Vite**: For modern, fast tooling in React project development.
-5. **AOS (Animate On Scroll)**: For interactive animations as users scroll through the page.
+
 
 ## How to Access
 
-You can access my personal website through [this link](http://www.contohsitusweb.com).
+You can access my personal website through [this link](https://adipramanaa.vercel.app/).
 
 ## Contact
 
