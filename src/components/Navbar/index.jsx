@@ -28,7 +28,7 @@ const Navbar = () => {
         </div>
 
         <div className="hidden w-11/12 sm:w-[96%] absolute top-[50px]" id="navbar-hamburger">
-          <ul className="flex flex-col font-medium mt-4 rounded-lg bg-gray-50 dark:bg-gray-800 dark:border-gray-700 ">
+          <ul className="flex flex-col font-medium mt-4 rounded-lg bg-gray-50 dark:bg-transparent dark:bg-opacity-40 dark:backdrop-blur-lg dark:border-gray-700">
             <li>
               <Link to="/" className={`${location.pathname === "/" ? "nav-active" : "nav-not-active"}`} aria-current="page">
                 Home
