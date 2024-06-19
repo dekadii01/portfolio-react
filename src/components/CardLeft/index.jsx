@@ -4,9 +4,9 @@ import { FaEnvelopeOpenText } from "react-icons/fa";
 import { MdLocationOn } from "react-icons/md";
 import { FaCalendarDays } from "react-icons/fa6";
 import { IoMdDownload } from "react-icons/io";
-import Cv from "/cv/index.pdf";
 
 const CardLeft = () => {
+  const Cv = "https://drive.google.com/drive/folders/18xcgPUFt3v-oLNEkBbdlpRauKueiNxyh";
   return (
     <div className="col-span-9 lg:col-span-2 bg-white rounded-xl dark:bg-black h-fit">
       <img src={ImgLaba} alt="" className="rounded-xl w-9/12 mx-auto mt-10 lg:-mt-24" loading="lazy" />
