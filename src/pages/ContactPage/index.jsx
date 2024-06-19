@@ -12,7 +12,7 @@ const ContactPage = () => {
         <div className=" bg-[#f8fbfb] dark:bg-[#0d0d0d] px-5 rounded-lg py-10">
           <h1 className="text-black dark:text-white font-semibold text-3xl ">
             Feel free to{" "}
-            <a href="" className="inline-block underline hover:text-primary">
+            <a href="mailto:dekjawa8@gmail.com" className="inline-block underline hover:text-primary">
               reach me
             </a>{" "}
             for any inquiries or collaboration opportunities!
