@@ -21,6 +21,7 @@ import Php from "/img/skills/php.svg";
 import Javascript from "/img/skills/javascript.svg";
 import LogoWordpress from "/img/skills/wordpress.svg";
 import Splide from "/img/skills/splide.png";
+import LadiTvLogo from "/img/logoladi-dark.png";
 import PortfolioCard from "../../components/PortfolioCard";
 
 const PortfolioPage = () => {
@@ -60,7 +61,7 @@ const PortfolioPage = () => {
     {
       link: "http://laditv.epizy.com/",
       image: LadiTv,
-      logo: "http://laditv.epizy.com/assets/images/logos/logoladi-dark.png",
+      logo: LadiTvLogo,
       title: "Ladi TV",
       description: "Content Management System",
       techStack: [Bootstrap, Php, Javascript],
