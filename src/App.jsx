@@ -4,8 +4,12 @@ import HomePage from "./pages/HomePage";
 import PortfolioPage from "./pages/PortfolioPage";
 import ContactPage from "./pages/ContactPage";
 import CobaLayout from "./pages/CobaLayout";
+// import AOS from "aos";
+// import "aos/dist/aos.css";
+// import { useEffect } from "react";
 
 function App() {
+  
   return (
     <Router>
       <Routes>

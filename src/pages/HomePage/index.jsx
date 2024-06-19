@@ -20,8 +20,8 @@ const HomePage = () => {
           <br /> As a beginner who is enthusiastic about exploring the world of the web, I focus on an attractive and interactive display as well as a good user experience.
         </p>
         <h1 className="text-3xl font-medium my-4 text-black dark:text-white">Interested In?</h1>
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-y-5 lg:gap-y-0 md:gap-x-5 mb-5">
-          <div className="bg-[#fff4f4] rounded-lg dark:bg-transparent dark:border dark:border-[#353535]">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-y-5  md:gap-x-5 mb-5">
+          <div className="bg-[#fff4f4] rounded-lg dark:bg-transparent dark:border dark:border-[#353535]" data-aos="fade-up-right" data-aos-delay="100">
             <div className="flex gap-x-3 py-5 pl-5  pr-3 items-start">
               <MdOutlineDesignServices className="text-fuchsia-500 text-[120px] h-fit" />
               <div>
@@ -30,7 +30,7 @@ const HomePage = () => {
               </div>
             </div>
           </div>
-          <div className="bg-[#eef5fa] rounded-lg dark:bg-transparent dark:border dark:border-[#353535]">
+          <div className="bg-[#eef5fa] rounded-lg dark:bg-transparent dark:border dark:border-[#353535]" data-aos="fade-up-right" data-aos-delay="200">
             <div className="flex gap-x-3 py-5 pl-5  pr-3 items-start">
               <FaCode className="text-primary text-[120px] h-fit" />
               <div>
@@ -39,9 +39,7 @@ const HomePage = () => {
               </div>
             </div>
           </div>
-        </div>
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-y-5 lg:gap-y-0 md:gap-x-8 ">
-          <div className="bg-[#eef5fa] rounded-lg dark:bg-transparent dark:border dark:border-[#353535]">
+          <div className="bg-[#eef5fa] rounded-lg dark:bg-transparent dark:border dark:border-[#353535]" data-aos="fade-up-right" data-aos-delay="300">
             <div className="flex gap-x-3 py-5 pl-5  pr-3 items-start">
               <TiCameraOutline className="text-pink-500 text-[120px] h-fit" />
               <div>

@@ -16,21 +16,45 @@ const CardLeft = () => {
         </div>
       </div>
       <div className="flex gap-x-3 justify-center mt-3">
-        <a href="https://www.instagram.com/dekadii01/" target="_blank" className="bg-abu dark:bg-dark px-3 py-2 rounded-lg hover:bg-primary dark:hover:bg-primary hover:text-white text-[#e12a72] transition-all ease-in duration-100 block">
+        <a
+          href="https://www.instagram.com/dekadii01/"
+          target="_blank"
+          data-aos="fade-right"
+          data-aos-delay="100"
+          className="bg-abu dark:bg-dark px-3 py-2 rounded-lg hover:bg-primary dark:hover:bg-primary hover:text-white text-[#e12a72] transition-all ease-in duration-100 block"
+        >
           <i className="fa-brands fa-instagram text-[20px] "></i>
         </a>
-        <a href="https://github.com/dekadii01" target="_blank" className="bg-abu dark:bg-dark px-3 py-2 rounded-lg hover:bg-primary dark:hover:bg-primary hover:text-white text-black transition-all ease-in duration-100 block">
+        <a
+          href="https://github.com/dekadii01"
+          target="_blank"
+          data-aos="fade-right"
+          data-aos-delay="200"
+          className="bg-abu dark:bg-dark px-3 py-2 rounded-lg hover:bg-primary dark:hover:bg-primary hover:text-white text-black transition-all ease-in duration-100 block"
+        >
           <i className="fa-brands fa-github text-[20px]  dark:text-white"></i>
         </a>
-        <a href="https://www.linkedin.com/in/dekadii/" target="_blank" className="bg-abu dark:bg-dark px-3 py-2 rounded-lg hover:bg-primary dark:hover:bg-primary hover:text-white text-[#144679] transition-all ease-in duration-100 block">
+        <a
+          href="https://www.linkedin.com/in/dekadii/"
+          target="_blank"
+          data-aos="fade-right"
+          data-aos-delay="300"
+          className="bg-abu dark:bg-dark px-3 py-2 rounded-lg hover:bg-primary dark:hover:bg-primary hover:text-white text-[#144679] transition-all ease-in duration-100 block"
+        >
           <i className="fa-brands fa-linkedin-in  text-[20px]"></i>
         </a>
-        <a href="https://www.tiktok.com/@abcdemdjjdksnsks" target="_blank" className="bg-abu dark:bg-dark px-3 py-2 rounded-lg hover:bg-primary dark:hover:bg-primary hover:text-white text-[#fff] block">
-          <i className="fa-brands fa-tiktok text-[20px]"></i>
+        <a
+          href="https://www.tiktok.com/@abcdemdjjdksnsks"
+          target="_blank"
+          data-aos="fade-right"
+          data-aos-delay="400"
+          className="bg-abu dark:bg-dark px-3 py-2 rounded-lg hover:bg-primary dark:hover:bg-primary hover:text-white text-[#000] dark:text-white transition-all ease-in duration-100"
+        >
+          <i className="fa-brands fa-tiktok text-[20px] "></i>
         </a>
       </div>
       <div className="bg-abu dark:bg-dark mx-5 my-7 px-6 py-5 rounded-lg">
-        <div className="flex items-center gap-x-2 ">
+        <div className="flex items-center gap-x-2 " data-aos="fade-right" data-aos-delay="100">
           <div className="bg-white dark:bg-black p-2 rounded-lg shadow-lg">
             <CiMobile1 className="text-2xl font-bold" style={{ color: "rgb(233, 59, 129)" }} />
           </div>
@@ -40,7 +64,7 @@ const CardLeft = () => {
           </div>
         </div>
         <hr className="h-px my-3 bg-[#e3e3e3] border-0 dark:bg-[#333]" />
-        <div className="flex items-center gap-x-2">
+        <div className="flex items-center gap-x-2" data-aos="fade-right" data-aos-delay="200">
           <div className="bg-white dark:bg-black p-2 rounded-lg shadow-lg">
             <FaEnvelopeOpenText className="text-2xl font-bold text-[#6AB5B9]" />
           </div>
@@ -50,7 +74,7 @@ const CardLeft = () => {
           </div>
         </div>
         <hr className="h-px my-3 bg-[#e3e3e3] border-0 dark:bg-[#333]" />
-        <div className="flex items-center gap-x-2">
+        <div className="flex items-center gap-x-2" data-aos="fade-right" data-aos-delay="300">
           <div className="bg-white dark:bg-black p-2 rounded-lg shadow-lg">
             <MdLocationOn className="text-2xl font-bold text-[#FD7590]" />
           </div>
@@ -60,7 +84,7 @@ const CardLeft = () => {
           </div>
         </div>
         <hr className="h-px my-3 bg-[#e3e3e3] border-0 dark:bg-[#333]" />
-        <div className="flex items-center gap-x-2">
+        <div className="flex items-center gap-x-2" data-aos="fade-right" data-aos-delay="400">
           <div className="bg-white dark:bg-black p-2 rounded-lg shadow-lg">
             <FaCalendarDays className="text-2xl font-bold text-[#FD7590]" />
           </div>

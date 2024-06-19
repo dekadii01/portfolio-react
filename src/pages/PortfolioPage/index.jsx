@@ -1,3 +1,4 @@
+import React from "react";
 import Layouts from "../../layouts";
 import Footer from "../../components/Footer";
 import Shape from "/img/header-shape.png";
@@ -20,8 +21,84 @@ import Php from "/img/skills/php.svg";
 import Javascript from "/img/skills/javascript.svg";
 import LogoWordpress from "/img/skills/wordpress.svg";
 import Splide from "/img/skills/splide.png";
+import PortfolioCard from "../../components/PortfolioCard";
 
 const PortfolioPage = () => {
+  const projects = [
+    {
+      link: "http://ignosstuduio.id/",
+      image: IgnosWeb,
+      logo: LogoIgnos,
+      title: "Ignos Studio",
+      description: "Booking System",
+      techStack: [Vite, Laravel, Tailwind],
+    },
+    {
+      link: "https://dekadii01.github.io/destinize-website/",
+      image: TravelWeb,
+      logo: "https://dekadii01.github.io/destinize-website/assets/img/logo-travel.svg",
+      title: "Destinize",
+      description: "Company Profile",
+      techStack: [Tailwind, Splide, Javascript],
+    },
+    {
+      link: "https://dekadii01.github.io/skilline-website/",
+      image: SkillineWeb,
+      logo: "https://dekadii01.github.io/skilline-website/assets/img/logo-skilline.svg",
+      title: "Skilline",
+      description: "Company Profile",
+      techStack: [Tailwind, Splide, Javascript],
+    },
+    {
+      link: "https://dekadii01.github.io/teamflow-website/",
+      image: TeamFlowWeb,
+      logo: "https://dekadii01.github.io/teamflow-website/assets/img/logo.svg",
+      title: "TeamFlow",
+      description: "Company Profile",
+      techStack: [Tailwind, Javascript],
+    },
+    {
+      link: "http://laditv.epizy.com/",
+      image: LadiTv,
+      logo: "http://laditv.epizy.com/assets/images/logos/logoladi-dark.png",
+      title: "Ladi TV",
+      description: "Content Management System",
+      techStack: [Bootstrap, Php, Javascript],
+    },
+    {
+      link: "https://dekadii01.github.io/the-malaka/",
+      image: TheMalakaWeb,
+      logo: "https://dekadii01.github.io/the-malaka/assets/img/logo.png",
+      title: "The Malaka",
+      description: "Company Profile",
+      techStack: [Bootstrap, Javascript],
+    },
+    {
+      link: "https://dekadii01.github.io/portfolio-tailwind-css/",
+      image: PersonalTailwind,
+      logo: null,
+      title: "Adi Pramana Tailwind",
+      description: "Personal Website",
+      techStack: [Tailwind, Javascript],
+    },
+    {
+      link: "https://adipramana.vercel.app/",
+      image: PersonalBootstrap,
+      logo: null,
+      title: "Adi Pramana Bootstrap",
+      description: "Personal Website",
+      techStack: [Bootstrap, Javascript],
+    },
+    {
+      link: "https://dekadii01.github.io/wordpress/",
+      image: Wordpress,
+      logo: LogoWordpress,
+      title: "WordPress Site",
+      description: "Personal Website",
+      techStack: [LogoWordpress],
+    },
+  ];
+
   return (
     <Layouts>
       <section id="portfolio" className="p-5 md:p-12">
@@ -39,132 +116,9 @@ const PortfolioPage = () => {
           </div>
         </div>
         <div className="grid grid-cols-1 md:grid-cols-1 gap-y-5">
-          <a href="http://ignosstuduio.id/" target="_blank" className="bg-white shadow-sm dark:bg-[#0d0d0d] p-3 rounded-lg hover:shadow-lg hover:scale-[1.010] cursor-pointer md:rounded-xl  transition-all duration-150 ease-in">
-            <img src={IgnosWeb} alt="project adi pramana" loading="lazy" />
-            <img src={LogoIgnos} alt="logo project" className="object-cover w-8 my-2" loading="lazy" />
-            <div className="flex items-center">
-              <p className="md:text-base text-sm text-[#26343b] dark:text-white">Booking System •</p>
-              <div className="flex items-center">
-                <img src={Vite} alt="tech stack logo adi pramana" className="md:w-[26px] w-5 object-contain aspect-[4/3]" />
-                <img src={Laravel} alt="tech stack logo adi pramana" className="md:w-[26px] w-5 object-contain aspect-[4/3]" />
-                <img src={Tailwind} alt="tech stack logo adi pramana" className="md:w-[26px] w-5 object-contain aspect-[4/3]" />
-              </div>
-            </div>
-          </a>
-          <a
-            href="https://dekadii01.github.io/destinize-website/"
-            target="_blank"
-            className="bg-white shadow-sm dark:bg-[#0d0d0d] p-3 rounded-lg hover:shadow-lg hover:scale-[1.010] cursor-pointer md:rounded-xl  transition-all duration-150 ease-in"
-          >
-            <img src={TravelWeb} alt="project adi pramana" loading="lazy" />
-            <img src="https://dekadii01.github.io/destinize-website/assets/img/logo-travel.svg" alt="logo project" className="object-cover w-8 my-2" loading="lazy" />
-            <div className="flex items-center gap-x-1">
-              <p className="md:text-base text-sm text-[#26343b] dark:text-white">Company Profile •</p>
-              <div className="flex items-center ">
-                <img src={Tailwind} alt="tech stack logo adi pramana" className="md:w-[26px] w-5 object-contain aspect-[4/3]" />
-                <img src={Splide} alt="tech stack logo adi pramana" className="md:w-[26px] w-5 object-contain aspect-[4/3]" />
-                <img src={Javascript} alt="tech stack logo adi pramana" className="md:w-[26px] w-5 object-contain aspect-[4/3]" />
-              </div>
-            </div>
-          </a>
-          <a
-            href="https://dekadii01.github.io/skilline-website/"
-            target="_blank"
-            className="bg-white shadow-sm dark:bg-[#0d0d0d] p-3 rounded-lg hover:shadow-lg hover:scale-[1.010] cursor-pointer md:rounded-xl  transition-all duration-150 ease-in"
-          >
-            <img src={SkillineWeb} alt="project adi pramana" loading="lazy" />
-            <img src="https://dekadii01.github.io/skilline-website/assets/img/logo-skilline.svg" alt="logo project" className="object-cover w-14 my-2" loading="lazy" />
-            <div className="flex items-center gap-x-1">
-              <p className="md:text-base text-sm text-[#26343b] dark:text-white">Company Profile •</p>
-              <div className="flex items-center ">
-                <img src={Tailwind} alt="tech stack logo adi pramana" className="md:w-[26px] w-5 object-contain aspect-[4/3]" />
-                <img src={Splide} alt="tech stack logo adi pramana" className="md:w-[26px] w-5 object-contain aspect-[4/3]" />
-                <img src={Javascript} alt="tech stack logo adi pramana" className="md:w-[26px] w-5 object-contain aspect-[4/3]" />
-              </div>
-            </div>
-          </a>
-          <a
-            href="https://dekadii01.github.io/teamflow-website/"
-            target="_blank"
-            className="bg-white shadow-sm dark:bg-[#0d0d0d] p-3 rounded-lg hover:shadow-lg hover:scale-[1.010] cursor-pointer md:rounded-xl  transition-all duration-150 ease-in"
-          >
-            <img src={TeamFlowWeb} alt="project adi pramana" loading="lazy" />
-            <img src="https://dekadii01.github.io/teamflow-website/assets/img/logo.svg" alt="logo project" className="object-cover w-32 my-2" loading="lazy" />
-            <div className="flex items-center gap-x-1">
-              <p className="md:text-base text-sm text-[#26343b] dark:text-white">Company Profile •</p>
-              <div className="flex items-center ">
-                <img src={Tailwind} alt="tech stack logo adi pramana" className="md:w-[26px] w-5 object-contain aspect-[4/3]" />
-                <img src={Javascript} alt="tech stack logo adi pramana" className="md:w-[26px] w-5 object-contain aspect-[4/3]" />
-              </div>
-            </div>
-          </a>
-          <a href="http://laditv.epizy.com/" target="_blank" className="bg-white shadow-sm dark:bg-[#0d0d0d] p-3 rounded-lg hover:shadow-lg hover:scale-[1.010] cursor-pointer md:rounded-xl  transition-all duration-150 ease-in">
-            <img src={LadiTv} alt="project adi pramana" loading="lazy" />
-            <img src="http://laditv.epizy.com/assets/images/logos/logoladi-dark.png" alt="logo project" className="object-cover w-16 my-2" loading="lazy" />
-            <div className="flex items-center gap-x-1">
-              <p className="md:text-base text-sm text-[#26343b] dark:text-white">Content Management System •</p>
-              <div className="flex items-center gap-x-1">
-                <img src={Bootstrap} alt="tech stack logo adi pramana" className="md:w-[26px] w-5 object-contain aspect-[4/3]" />
-                <img src={Php} alt="tech stack logo adi pramana" className="md:w-[26px] w-5 object-contain aspect-[4/3]" />
-                <img src={Javascript} alt="tech stack logo adi pramana" className="md:w-[26px] w-5 object-contain aspect-[4/3]" />
-              </div>
-            </div>
-          </a>
-          <a
-            href="https://dekadii01.github.io/the-malaka/"
-            target="_blank"
-            className="bg-white shadow-sm dark:bg-[#0d0d0d] p-3 rounded-lg hover:shadow-lg hover:scale-[1.010] cursor-pointer md:rounded-xl  transition-all duration-150 ease-in"
-          >
-            <img src={TheMalakaWeb} alt="project adi pramana" loading="lazy" />
-            <img src="https://dekadii01.github.io/the-malaka/assets/img/logo.png" alt="logo project" className="object-cover w-8 my-2" loading="lazy" />
-            <div className="flex items-center gap-x-1">
-              <p className="md:text-base text-sm text-[#26343b] dark:text-white">Company Profile •</p>
-              <div className="flex items-center ">
-                <img src={Bootstrap} alt="tech stack logo adi pramana" className="md:w-[26px] w-5 object-contain aspect-[4/3]" />
-                <img src={Javascript} alt="tech stack logo adi pramana" className="md:w-[26px] w-5 object-contain aspect-[4/3]" />
-              </div>
-            </div>
-          </a>
-          <a
-            href="https://dekadii01.github.io/portfolio-tailwind-css/"
-            target="_blank"
-            className="bg-white shadow-sm dark:bg-[#0d0d0d] p-3 rounded-lg hover:shadow-lg hover:scale-[1.010] cursor-pointer md:rounded-xl  transition-all duration-150 ease-in"
-          >
-            <img src={PersonalTailwind} alt="project adi pramana" loading="lazy" />
-            <h1 className="text-sky-500 my-2">Adi Pramana</h1>
-            <div className="flex items-center gap-x-1">
-              <p className="md:text-base text-sm text-[#26343b] dark:text-white">Personal Website •</p>
-              <div className="flex items-center ">
-                <img src={Tailwind} alt="tech stack logo adi pramana" className="md:w-[26px] w-5 object-contain aspect-[4/3]" />
-                <img src={Javascript} alt="tech stack logo adi pramana" className="md:w-[26px] w-5 object-contain aspect-[4/3]" />
-              </div>
-            </div>
-          </a>
-          <a href="https://adipramana.vercel.app/" target="_blank" className="bg-white shadow-sm dark:bg-[#0d0d0d] p-3 rounded-lg hover:shadow-lg hover:scale-[1.010] cursor-pointer md:rounded-xl  transition-all duration-150 ease-in">
-            <img src={PersonalBootstrap} alt="project adi pramana" loading="lazy" />
-            <h1 className="my-2 text-black dark:text-white">Adi Pramana</h1>
-            <div className="flex items-center gap-x-1">
-              <p className="md:text-base text-sm text-[#26343b] dark:text-white">Personal Website •</p>
-              <div className="flex items-center ">
-                <img src={Bootstrap} alt="tech stack logo adi pramana" className="md:w-[26px] w-5 object-contain aspect-[4/3]" />
-                <img src={Javascript} alt="tech stack logo adi pramana" className="md:w-[26px] w-5 object-contain aspect-[4/3]" />
-              </div>
-            </div>
-          </a>
-          <a
-            href="https://dekadii01.github.io/wordpress/"
-            target="_blank"
-            className="bg-white shadow-sm dark:bg-[#0d0d0d] p-3 rounded-lg hover:shadow-lg hover:scale-[1.010] cursor-pointer md:rounded-xl  transition-all duration-150 ease-in"
-          >
-            <img src={Wordpress} alt="project adi pramana" loading="lazy" />
-            <h1 className="text-black dark:text-white my-2">Adi Pramana</h1>
-            <div className="flex items-center">
-              <p className="md:text-base text-sm text-[#26343b] dark:text-white">Personal Website •</p>
-              <div className="flex items-center">
-                <img src={LogoWordpress} alt="tech stack logo adi pramana" className="md:w-[26px] w-5 object-contain aspect-[4/3]" />
-              </div>
-            </div>
-          </a>
+          {projects.map((project, index) => (
+            <PortfolioCard key={index} {...project} />
+          ))}
         </div>
       </section>
       <Footer />
