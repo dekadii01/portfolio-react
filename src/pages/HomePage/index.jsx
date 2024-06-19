@@ -26,7 +26,7 @@ const HomePage = () => {
               <MdOutlineDesignServices className="text-fuchsia-500 text-[120px] h-fit" />
               <div>
                 <h1 className="font-medium text-xl mb-1 text-black dark:text-white">Ui/Ux Design</h1>
-                <p className="text-base text-bodytext dark:text-abuDark">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto delectus ipsa quia facere repellendus accusantium.</p>
+                <p className="text-base text-bodytext dark:text-abuDark">Designing the appearance of applications/webs so that they function well and are easily accessible to users.</p>
               </div>
             </div>
           </div>
@@ -35,16 +35,16 @@ const HomePage = () => {
               <FaCode className="text-primary text-[120px] h-fit" />
               <div>
                 <h1 className="font-medium text-xl mb-1 text-black dark:text-white">Web Development</h1>
-                <p className="text-base text-bodytext dark:text-abuDark">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto delectus ipsa quia facere repellendus accusantium.</p>
+                <p className="text-base text-bodytext dark:text-abuDark">Developing an application or web interface that ensures optimal functionality and user-friendly accessibility for seamless user experience.</p>
               </div>
             </div>
           </div>
-          <div className="bg-[#eef5fa] rounded-lg dark:bg-transparent dark:border dark:border-[#353535]" data-aos="fade-up-right" data-aos-delay="300">
+          <div className="bg-[#fff4f4] rounded-lg dark:bg-transparent dark:border dark:border-[#353535]" data-aos="fade-up-right" data-aos-delay="300">
             <div className="flex gap-x-3 py-5 pl-5  pr-3 items-start">
               <TiCameraOutline className="text-pink-500 text-[120px] h-fit" />
               <div>
-                <h1 className="font-medium text-xl mb-1 text-black dark:text-white">Photography</h1>
-                <p className="text-base text-bodytext dark:text-abuDark">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto delectus ipsa quia facere repellendus accusantium.</p>
+                <h1 className="font-medium text-xl mb-1 text-black dark:text-white">Photographer</h1>
+                <p className="text-base text-bodytext dark:text-abuDark">Capturing unique moments through photography to evoke emotions and inspire viewers with compelling visuals.</p>
               </div>
             </div>
           </div>
