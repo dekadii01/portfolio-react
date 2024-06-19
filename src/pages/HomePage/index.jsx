@@ -50,7 +50,7 @@ const HomePage = () => {
           </div>
         </div>
       </section>
-      <section id="client" className="mt-14 bg-[#f8fbfb] dark:bg-[#0d0d0d] p-5">
+      <section id="client" className="mt-5 bg-[#f8fbfb] dark:bg-[#0d0d0d] p-5">
         <h1 className="text-3xl font-medium text-black dark:text-white text-center mb-3">Client</h1>
         <div className="flex justify-center mb-2">
           <img src={LogoIgnos} alt="" width={110} />
