@@ -1,9 +1,10 @@
 import ImgLaba from "/img/adi-pramana.jpg";
 import { CiMobile1 } from "react-icons/ci";
-import { FaEnvelopeOpenText, FaSchool } from "react-icons/fa";
+import { FaEnvelopeOpenText } from "react-icons/fa";
 import { MdLocationOn } from "react-icons/md";
 import { FaCalendarDays } from "react-icons/fa6";
 import { IoMdDownload } from "react-icons/io";
+import Cv from "/cv/index.pdf";
 
 const CardLeft = () => {
   return (
@@ -94,7 +95,7 @@ const CardLeft = () => {
           </div>
         </div>
       </div>
-      <a href="" className="bg-primary px-5 py-2 rounded-lg flex items-center w-fit gap-x-2 text-white font-medium mx-auto mb-10 hover:bg-primary/70 transition-all ease-in duration-100">
+      <a href={Cv} target="_blank" className="bg-primary px-5 py-2 rounded-lg flex items-center w-fit gap-x-2 text-white font-medium mx-auto mb-10 hover:bg-primary/70 transition-all ease-in duration-100">
         <IoMdDownload />
         <p>Download Cv</p>
       </a>
