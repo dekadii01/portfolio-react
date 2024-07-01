@@ -61,7 +61,7 @@ const CardLeft = () => {
           </div>
           <div>
             <p className="text-abuDark text-sm">Phone</p>
-            <h1 className="text-base text-black dark:text-white">0822-6655-1815</h1>
+            <h1 className="text-base text-black dark:text-white">0821-8765-9090</h1>
           </div>
         </div>
         <hr className="h-px my-3 bg-[#e3e3e3] border-0 dark:bg-[#333]" />
