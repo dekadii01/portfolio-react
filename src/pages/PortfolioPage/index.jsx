@@ -83,7 +83,7 @@ const PortfolioPage = () => {
       techStack: [Tailwind, Javascript],
     },
     {
-      link: "https://adipramana.vercel.app/",
+      link: "https://labaadipramana.vercel.app/",
       image: PersonalBootstrap,
       logo: null,
       title: "Adi Pramana Bootstrap",
