@@ -24,7 +24,7 @@ const CardLeft = () => {
           data-aos-delay="100"
           className="bg-abu dark:bg-dark px-3 py-2 rounded-lg hover:bg-primary dark:hover:bg-primary hover:text-white text-[#e12a72] transition-all ease-in duration-100 block"
         >
-          <i className="fa-brands fa-instagram text-[20px] "></i>
+          <i className="fa-brands fa-instagram text-[20px]"></i>
         </a>
         <a
           href="https://github.com/dekadii01"
