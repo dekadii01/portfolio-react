@@ -14,10 +14,8 @@ const HomePage = () => {
           <div className="h-[3px] w-44 rounded-lg bg-primary"></div>
         </div>
         <p className="text-bodytext text-justify text-base dark:text-abuDark">
-          I am a vocational school student majoring in Software Engineering with enthusiasm and deep interest in the world of web development. I am committed to continuing to learn and develop my skills, especially in the field of web
-          design.
-          <br />
-          <br /> As a beginner who is enthusiastic about exploring the world of the web, I focus on an attractive and interactive display as well as a good user experience.
+          I'm Adi Pramana, a cheerful developer from Denpasar, Bali. I specialize in front-end development and have a keen interest in UI/UX design. I have a passion for creating beautiful and user-friendly web applications. When I'm not
+          coding, you'll find me strumming my guitar or playing the ukulele. Let's connect and create something amazing together! 🌟
         </p>
         <h1 className="text-3xl font-medium my-4 text-black dark:text-white">Interested In?</h1>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-y-5  md:gap-x-5 mb-5">

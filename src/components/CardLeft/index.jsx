@@ -4,6 +4,7 @@ import { FaEnvelopeOpenText } from "react-icons/fa";
 import { MdLocationOn } from "react-icons/md";
 import { FaCalendarDays } from "react-icons/fa6";
 import { IoMdDownload } from "react-icons/io";
+import { BsPersonRaisedHand } from "react-icons/bs";
 
 const CardLeft = () => {
   const Cv = "https://drive.google.com/drive/folders/18xcgPUFt3v-oLNEkBbdlpRauKueiNxyh";
@@ -57,11 +58,11 @@ const CardLeft = () => {
       <div className="bg-abu dark:bg-dark mx-5 my-7 px-6 py-5 rounded-lg">
         <div className="flex items-center gap-x-2 " data-aos="fade-right" data-aos-delay="100">
           <div className="bg-white dark:bg-black p-2 rounded-lg shadow-lg">
-            <CiMobile1 className="text-2xl font-bold" style={{ color: "rgb(233, 59, 129)" }} />
+            <BsPersonRaisedHand className="text-2xl font-bold" style={{ color: "rgb(233, 59, 129)" }} />
           </div>
           <div>
-            <p className="text-abuDark text-sm">Phone</p>
-            <h1 className="text-base text-black dark:text-white">0821-8765-9090</h1>
+            <p className="text-abuDark text-sm">MBTI</p>
+            <h1 className="text-base text-black dark:text-white">ESFJ</h1>
           </div>
         </div>
         <hr className="h-px my-3 bg-[#e3e3e3] border-0 dark:bg-[#333]" />
