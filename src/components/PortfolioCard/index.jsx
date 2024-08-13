@@ -1,11 +1,9 @@
-import React from "react";
-
 const PortfolioCard = ({ link, image, logo, title, description, techStack }) => {
   const getLogoClass = (title) => {
-    if (title === "Skilline" ) {
+    if (title === "Skilline") {
       return "object-cover w-14 my-2";
-    }else if( title === "TeamFlow" || title === "Ladi TV"){
-        return "object-cover w-24 my-2";
+    } else if (title === "TeamFlow" || title === "Ladi TV") {
+      return "object-cover w-24 my-2";
     }
     return "object-cover w-8 my-2";
   };

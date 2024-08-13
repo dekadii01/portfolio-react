@@ -1,4 +1,3 @@
-import React from "react";
 import Layouts from "../../layouts";
 import Footer from "../../components/Footer";
 import Shape from "/img/header-shape.png";
@@ -12,8 +11,11 @@ import TeamFlowWeb from "/img/projects/teamflow-web.webp";
 import TheMalakaWeb from "/img/projects/the-malaka-web.webp";
 import TravelWeb from "/img/projects/travel-web.webp";
 import Wordpress from "/img/projects/wordpress.webp";
+import Filmagnet from "/img/projects/filmagnet.webp";
 import LogoIgnos from "/img/clients/ignos.png";
 import Tailwind from "/img/skills/tailwind.svg";
+import React from "/img/skills/react.svg";
+import Axios from "/img/skills/axios.svg";
 import Vite from "/img/skills/vite.svg";
 import Bootstrap from "/img/skills/bootstrap.svg";
 import Laravel from "/img/skills/laravel.svg";
@@ -35,6 +37,14 @@ const PortfolioPage = () => {
       techStack: [Vite, Laravel, Tailwind],
     },
     {
+      link: "https://filmagnetweb.vercel.app/",
+      image: Filmagnet,
+      logo: "https://filmagnetweb.vercel.app/img/logo-filmagnet.svg",
+      title: "Filmagnet",
+      description: "Streaming Web",
+      techStack: [React, Vite, Tailwind, Axios, Splide],
+    },
+    {
       link: "https://dekadii01.github.io/destinize-website/",
       image: TravelWeb,
       logo: "https://dekadii01.github.io/destinize-website/assets/img/logo-travel.svg",
@@ -42,6 +52,7 @@ const PortfolioPage = () => {
       description: "Company Profile",
       techStack: [Tailwind, Splide, Javascript],
     },
+
     {
       link: "https://dekadii01.github.io/skilline-website/",
       image: SkillineWeb,
