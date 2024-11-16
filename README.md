@@ -18,7 +18,7 @@ Welcome to the updated version of my personal website. In this update, I have sw
 
 ## How to Access
 
-You can access my personal website through [this link](https://adipramanaa.vercel.app/).
+You can access my personal website through [this link](https://adipramana.vercel.app/).
 
 ## Contact
 
