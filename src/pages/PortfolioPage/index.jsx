@@ -29,7 +29,7 @@ import PortfolioCard from "../../components/PortfolioCard";
 const PortfolioPage = () => {
   const projects = [
     {
-      link: "http://ignosstuduio.id/",
+      link: "https://ignosstudio.com/",
       image: IgnosWeb,
       logo: LogoIgnos,
       title: "Ignos Studio",
